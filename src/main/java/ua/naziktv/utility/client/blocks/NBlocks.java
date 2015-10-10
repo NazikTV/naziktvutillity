@@ -1,9 +1,7 @@
 package ua.naziktv.utility.client.blocks;
 
-import DummyCore.Blocks.BlocksRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.WeightedRandomChestContent;
 import net.minecraftforge.common.ChestGenHooks;

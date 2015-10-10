@@ -2,17 +2,12 @@ package ua.naziktv.utility.client.items;
 
 import com.sun.istack.internal.NotNull;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
-import net.minecraft.util.DamageSource;
-import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
-import net.minecraftforge.common.ISpecialArmor;
-import ua.naziktv.utility.API.NLoger;
 import ua.naziktv.utility.client.main.NMain;
 
 import static ua.naziktv.utility.client.items.NItems.*;

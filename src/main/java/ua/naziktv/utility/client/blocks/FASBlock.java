@@ -14,7 +14,6 @@ import net.minecraft.world.World;
 import ua.naziktv.utility.API.NLoger;
 import ua.naziktv.utility.client.enitity.FASBEntity;
 import ua.naziktv.utility.client.items.NItems;
-import ua.naziktv.utility.client.main.NMain;
 
 import java.util.Random;
 

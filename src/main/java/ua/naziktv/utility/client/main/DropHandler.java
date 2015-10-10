@@ -1,13 +1,10 @@
 package ua.naziktv.utility.client.main;
 
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import net.minecraft.entity.passive.EntityCow;
-import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import ua.naziktv.utility.client.blocks.NBlocks;
 import ua.naziktv.utility.client.enitity.NazikTVEntity;
-import ua.naziktv.utility.client.items.NItems;
 
 import java.util.Random;
 

@@ -1,6 +1,5 @@
 package ua.naziktv.utility.API;
 
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import ua.naziktv.utility.client.items.NItems;

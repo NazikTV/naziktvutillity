@@ -30,7 +30,6 @@ import ua.naziktv.utility.client.items.NItems;
 import ua.naziktv.utility.client.potion.Npotion;
 import ua.naziktv.utility.client.potion.Potionnazikutility;
 
-import java.io.IOException;
 import java.util.ArrayList;
 /**
  * Created by NazikTV.
@@ -106,6 +105,7 @@ public class NMain {
         meta.version = version;
         meta.description = "Utility for NazikTV survival.";
         meta.authorList = authors;
+        meta.url="naziktv.zz.mu";
     }
 
     public static void registerEntity(java.lang.Class<NazikTVEntity> entityClass, String name, int primaryColor, int secondaryColor) {
