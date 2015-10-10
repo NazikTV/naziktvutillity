@@ -15,6 +15,7 @@ import ua.naziktv.utility.client.main.NMain;
 public class ClockB extends Block {
     protected ClockB() {
         super(Material.wood);
+
     }
 
     public IIcon[] blockIcons = new IIcon[16];
@@ -29,6 +30,7 @@ public class ClockB extends Block {
     public Block setTexturePath(String p)
     {
         iconPath = p;
+        this.textureName=NMain.modid+ iconPath+"/norm";
         return this;
     }
 

@@ -1,0 +1,47 @@
+//Blocks
+tile.Testblock.name=Test block
+tile.CottonCrops.name=Cotton crops
+tile.AdvancFur.name=Adwancet Furnace
+tile.AdvancFurAct.name=Adwancet Furnace
+
+//Items
+item.GoldEgg.name=Egg++
+itemGroup.nazikutility=NazikTV Mods
+item.CPickaxe.name=Creative Pickaxe
+item.CAxe.name=Creative Axe
+item.Creativehelmet.name=Creative helmet
+item.Creativeplate.name=Creative plate
+item.Creativepants.name=Creative pants
+item.Creativeboots.name=Creative boots
+item.EnchantedDiamond.name=Enchanted Diamond (ED)
+item.EDplate.name=ED plate
+item.EDhelmet.name=ED helmet
+item.EDpants.name=ED pants
+item.EDboots.name=ED boots
+item.Cotton.name=Coton
+item.CottonSeed.name=Coton seed
+item.EnEm.name=Enchanted emerald
+item.CEDplate.name=ED plate with Enchanted emerald
+item.EnEmControler.name=Enchanted emerald controler
+item.ControledEnEm.name=Controlled enchanted emerald
+item.FlintAndStick.name=Stone mortar
+item.EnchEmDust.name=Enchanted emerald dust
+item.StoneBowl.name=Stone bowl
+item.ED.name=Emerald dust
+
+item.ED.line1=Emerald dust
+item.ED.line2=
+item.ED.line3=
+item.StoneBowl.line1=Stone Bowl
+item.StoneBowl.line2=
+item.StoneBowl.line3=
+
+items.holdshift=For more hold left shift
+
+//Potion
+potion.hotarms=Hot Arms
+
+//Enity
+entity.NazikTVEntity.name=NazikTV
+nazikutility=Nazik utility
+

@@ -1,0 +1,46 @@
+﻿//Blocks
+tile.Testblock.name=Тестовий блок
+tile.CottonCrops.name=Бавовняна рослина
+tile.AdvancFur.name=Смарагдова піч
+tile.AdvancFurAct.name=Смарагдова піч
+
+//Items
+item.GoldEgg.name=Egg++
+itemGroup.nazikutility=NazikTV Mods
+item.CPickaxe.name=Креативна кирка
+item.CAxe.name=Креативна сокира
+item.Creativehelmet.name=Креативний шлем
+item.Creativeplate.name=Креативний нагрудник
+item.Creativepants.name=Креативні наколінники
+item.Creativeboots.name=Креативні чоботи
+item.EnchantedDiamond.name=Зачарований алмаз (ED)
+item.EDplate.name=ED шлем
+item.EDhelmet.name=ED нагрудник
+item.EDpants.name=ED наколінники
+item.EDboots.name=ED чоботи
+item.Cotton.name=Бавовна
+item.CottonSeed.name=Насіння бавовни
+item.EnEm.name=Зачарований смарагд
+item.CEDplate.name=ED нагрудник із зачарованим смарагдом
+item.EnEmControler.name=Контлорлер зачарованого смарагду
+item.ControledEnEm.name=Контрольований зачарований смарагд
+item.FlintAndStick.name=Кам'яна ступка
+item.EnchEmDust.name=Зачарований смарагдовий пил
+item.StoneBowl.name=Кам'яна чаша
+item.ED.name=Смарагдовий пил
+
+item.ED.line1=Смарагдовий пил
+item.ED.line2=
+item.ED.line3=
+item.StoneBowl.line1=Кам'яна чаша
+item.StoneBowl.line2=
+item.StoneBowl.line3=
+
+items.holdshift=Для додаткової інюормації натисніть лівий Shift
+
+//Potion
+potion.hotarms=Hot Arms
+
+//Enity
+entity.NazikTVEntity.name=NazikTV
+

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "nazikutility",
+  "name": "NazikTV Utility Mod",
+  "description": "Utility for NazikTV survival.",
+  "version": "1.7.10",
+  "mcversion": "${mcversion}",
+  "url": "nazikTV.zz.mu",
+  "updateUrl": "",
+  "authorList": ["NazikTV"],
+  "credits": "The Forge & FML & MCP guys and Notch =)",
+  "logoFile": "nazikLogo.png",
+  "screenshots": [nazikTVmodscreenshots.png],
+  "dependencies": []
+}
+]
