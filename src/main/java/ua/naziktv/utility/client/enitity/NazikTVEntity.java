@@ -10,7 +10,11 @@ import net.minecraft.world.World;
 import java.util.Random;
 
 /**
- * Created by Comp on 07.07.2015.
+ * Created by NazikTV on 07.07.2015.
+ * This work is licensed under a Creative Commons
+ * Attribution-ShareAlike 4.0 International License.
+ * For show sourse visit https://github.com/NazikTV/naziktvutillity
+ * My site http://naziktv.zz.mu/
  */
 public class NazikTVEntity extends EntityMob {
     public NazikTVEntity(World par1World) {

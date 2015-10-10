@@ -32,6 +32,13 @@ import ua.naziktv.utility.client.potion.Potionnazikutility;
 
 import java.io.IOException;
 import java.util.ArrayList;
+/**
+ * Created by NazikTV.
+ * This work is licensed under a Creative Commons
+ * Attribution-ShareAlike 4.0 International License.
+ * For show sourse visit https://github.com/NazikTV/naziktvutillity
+ * My site http://naziktv.zz.mu/
+ */
 
 @Mod(modid = NMain.modid, name = NMain.name, version = NMain.version, acceptedMinecraftVersions = "1.7.10", guiFactory = "ua.naziktv.utility.client.gui.GuiFactoryNazikUt", canBeDeactivated = true)
 

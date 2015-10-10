@@ -13,7 +13,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Comp on 06.07.2015.
+ * Created by NazikTV on 06.07.2015.
+ * This work is licensed under a Creative Commons
+ * Attribution-ShareAlike 4.0 International License.
+ * For show sourse visit https://github.com/NazikTV/naziktvutillity
+ * My site http://naziktv.zz.mu/
  */
 public class TabNazikTV extends CreativeTabs {
     private final String tabLabel;

@@ -10,9 +10,12 @@ import net.minecraft.util.IIcon;
 import ua.naziktv.utility.client.main.NMain;
 
 import java.util.List;
-
 /**
- * Created by NazikTV on 31.08.2015.
+ * Created by NazikTV on 30.08.2015.
+ * This work is licensed under a Creative Commons
+ * Attribution-ShareAlike 4.0 International License.
+ * For show sourse visit https://github.com/NazikTV/naziktvutillity
+ * My site http://naziktv.zz.mu/
  */
 public class PaintBukkit extends Item {
     public PaintBukkit() {

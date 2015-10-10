@@ -14,7 +14,11 @@ import ua.naziktv.utility.client.blocks.NBlocks;
 import ua.naziktv.utility.client.main.NMain;
 
 /**
- * Created by Comp on 24.07.2015.
+ * Created by NazikTV on 24.07.2015.
+ * This work is licensed under a Creative Commons
+ * Attribution-ShareAlike 4.0 International License.
+ * For show sourse visit https://github.com/NazikTV/naziktvutillity
+ * My site http://naziktv.zz.mu/
  */
 public class NItems {
     static Item.ToolMaterial NEWMAT = EnumHelper.addToolMaterial("Creative", 3, 5000, 38.5F, 35.3F, 50);

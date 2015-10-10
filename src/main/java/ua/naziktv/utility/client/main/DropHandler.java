@@ -13,6 +13,10 @@ import java.util.Random;
 
 /**
  * Created by NazikTV on 28.08.2015.
+ * This work is licensed under a Creative Commons
+ * Attribution-ShareAlike 4.0 International License.
+ * For show sourse visit https://github.com/NazikTV/naziktvutillity
+ * My site http://naziktv.zz.mu/
  */
 public class DropHandler
 {
