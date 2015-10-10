@@ -42,7 +42,7 @@ public class NMain {
     @Mod.Instance("nazikutility")
     public static NMain instance;
 
-    public static final String version = "0.1.4";
+    public static final String version = "0.1.5";
     public static final String modid = "nazikutility";
     public static final String name = "NazikTV Utility Mod";
     public static final NConfig cfg = new NConfig();

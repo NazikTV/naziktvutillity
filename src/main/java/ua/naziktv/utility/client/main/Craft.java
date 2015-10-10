@@ -49,11 +49,20 @@ public class Craft {
         GameRegistry.addShapelessRecipe(new ItemStack(NItems.FandStick), new Object[]{NItems.Bowl, Items.stick, Items.flint});
         GameRegistry.addShapelessRecipe(new ItemStack(Items.blaze_powder, 3), new Object[]{fandstick, Items.blaze_rod});
         GameRegistry.addRecipe(new ItemStack(NItems.Bowl), "NNN", "XNX", "NXN", ('X'), Blocks.stone);
+        GameRegistry.addRecipe(new ItemStack(NBlocks.ClockN, 3), "NXN", "XYX", "NZN", ('X'), NBlocks.ClockBlock, ('Y'), Items.gold_ingot, ('Z'), Items.iron_ingot);
+        GameRegistry.addRecipe(new ItemStack(NBlocks.ClockBlock, 5), "NYN", "YXY", "NYN", ('X'), new ItemStack(Blocks.planks, 1, 1), ('Y'), new ItemStack(Blocks.planks, 1, 5));
         //new ItemStack()
         for (int i = 0; i < 16; ++i) {
             GameRegistry.addRecipe(new ItemStack(NItems.PaintBukkit, 1, i), "XYN", "ZNN", "NNN", ('X'), new ItemStack(Items.dye, 1, i), ('Y'), fandstick, ('Z'), Items.milk_bucket);
             GameRegistry.addShapelessRecipe(new ItemStack(NBlocks.PaintQuarz, 1, i), new Object[]{new ItemStack(NItems.PaintBukkit, 1, i), Blocks.quartz_block});
         }
+        for (int i = 0; i < 12; i++) {
+            if(i<11)
+              GameRegistry.addShapelessRecipe(new ItemStack(NBlocks.ClockN, 1, i+1), new Object[]{ new ItemStack(NBlocks.ClockN, 1, i)});
+            else
+                GameRegistry.addShapelessRecipe(new ItemStack(NBlocks.ClockN, 1), new Object[]{new ItemStack(NBlocks.ClockN, 1, 11)});
+        }
+
 
 
     }
