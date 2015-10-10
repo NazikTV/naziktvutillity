@@ -108,8 +108,6 @@ public class nazikutEventHooks {
         if (NConfig.config1.hasChanged()){
             NConfig.config1.save();
         }
-
-
     }
 
     public void saveconfig1(){

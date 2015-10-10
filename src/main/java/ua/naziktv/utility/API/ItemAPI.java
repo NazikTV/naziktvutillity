@@ -20,7 +20,7 @@ import java.util.List;
  * For show sourse visit https://github.com/NazikTV/naziktvutillity
  * My site http://naziktv.zz.mu/
  */
-public class ItemAPI extends Item {
+public  class ItemAPI extends Item {
     public Boolean haseffeckt;
     public String Name;
     public ItemAPI(String name, boolean efeckt){

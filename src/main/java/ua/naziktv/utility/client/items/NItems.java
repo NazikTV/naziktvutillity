@@ -10,8 +10,10 @@ import net.minecraft.util.WeightedRandomChestContent;
 import net.minecraftforge.common.ChestGenHooks;
 import net.minecraftforge.common.util.EnumHelper;
 import ua.naziktv.utility.API.ItemAPI;
+import ua.naziktv.utility.API.ItemAPI;
 import ua.naziktv.utility.client.blocks.NBlocks;
 import ua.naziktv.utility.client.main.NMain;
+
 
 /**
  * Created by NazikTV on 24.07.2015.
@@ -21,7 +23,7 @@ import ua.naziktv.utility.client.main.NMain;
  * My site http://naziktv.zz.mu/
  */
 public class NItems {
-    static Item.ToolMaterial NEWMAT = EnumHelper.addToolMaterial("Creative", 3, 5000, 38.5F, 35.3F, 50);
+    static Item.ToolMaterial NEWMAT = EnumHelper.addToolMaterial("Creative", 3, 5000, 40.5F, 38.5F, 50);
     static Item.ToolMaterial NEWMATSWORD = EnumHelper.addToolMaterial("Creative sword", 3, 5000, 500.5F, 500.5F, 50);
     static ItemArmor.ArmorMaterial BESTMAT = EnumHelper.addArmorMaterial("BESTMAT", 500, new int[]{7, 10, 9, 6}, 300);
     static ItemArmor.ArmorMaterial ED = EnumHelper.addArmorMaterial("ED", 150, new int[]{3, 8, 6, 3}, 40);

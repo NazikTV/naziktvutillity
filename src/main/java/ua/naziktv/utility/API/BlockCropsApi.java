@@ -158,10 +158,8 @@ public class BlockCropsApi  extends BlockBush implements IGrowable
                 }
             }
             for (int i = 0; i <= 2 + world.rand.nextInt(2); i++) {
-                //if (world.rand.nextInt(growthStage) <= metadata) {
                     if (dropItem != null)
                         ret.add(dropItem.copy());
-                //}
             }
 
 

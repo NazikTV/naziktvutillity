@@ -5,6 +5,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import ua.naziktv.utility.client.blocks.NBlocks;
 import ua.naziktv.utility.client.enitity.NazikTVEntity;
+import ua.naziktv.utility.client.items.NItems;
 
 import java.util.Random;
 
@@ -25,15 +26,23 @@ public class DropHandler
     public void onEntityDrop(LivingDropsEvent event)
     {
         random = new Random();
-        dropped = random.nextInt(2) + 3; //DO NOT CHANGE THIS
+        dropped = (int)random.nextInt(25)/10 + 3; //DO NOT CHANGE THIS
         shans = random.nextInt(3);
 
         if(event.entityLiving instanceof NazikTVEntity)
         {
             if (shans == 0){
                 event.entityLiving.entityDropItem(new ItemStack(NBlocks.testblock), dropped);
+                if(dropped <2){
+                    event.entityLiving.entityDropItem(new ItemStack(NBlocks.testblock), 1);
+                }
             }
-
+            if (random.nextInt(10)==1){
+                event.entityLiving.entityDropItem(new ItemStack(NItems.CEnEmerald), dropped);
+                if(dropped < 2){
+                    event.entityLiving.entityDropItem(new ItemStack(NItems.CEnEmerald), random.nextInt(2));
+                }
+            }
         }
 
     }

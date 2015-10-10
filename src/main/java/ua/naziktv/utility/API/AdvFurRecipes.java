@@ -28,7 +28,6 @@ public class AdvFurRecipes {
     }
 
     private AdvFurRecipes(){
-        //this.addRecipie(Item.getItemFromBlock(NItems.EnchantedDiamond), new ItemStack(TMItem.tutHelmet), 0.8F);
         this.addRecipie(NItems.EnchantedDiamond, new ItemStack(NItems.EnEmerald, 1), 1.5F);
         this.addRecipie(NItems.EnEmerald, new ItemStack(NItems.EnEmeraldC, 1), 1.8F);
 

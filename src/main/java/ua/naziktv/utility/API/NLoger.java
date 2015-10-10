@@ -16,7 +16,6 @@ import java.io.IOException;
  * My site http://naziktv.zz.mu/
  */
 public class NLoger {
-    //public static class LOG{
         public static final Logger logger = LogManager.getLogger();
         public static void DEBUG(String text) {if(NConfig.EDEBUG) logger.log(Level.DEBUG ,"[NazikUtilityMod][DEBUG]"+text);}
         public static void DEBUG(int text) {if(NConfig.EDEBUG) logger.log(Level.DEBUG, "[NazikUtilityMod][DEBUG]"+text);}

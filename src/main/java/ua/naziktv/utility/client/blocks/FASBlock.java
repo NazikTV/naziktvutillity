@@ -42,7 +42,9 @@ public class FASBlock extends BlockContainer {
             if(w.isAirBlock(x, y-1, z)){
                 w.setBlock(x, y, z, Blocks.air);
                 //w.
+                w.setBlockToAir(x, y, z);
                 breakBlock(w, x, y, z, null, 1);
+                w.setBlockToAir(x, y, z);
                 NLoger.DEBUG("ZZZZZ");
             }
         //}
@@ -57,7 +59,6 @@ public class FASBlock extends BlockContainer {
             float f3 = 0.025F;
             EntityItem entityitem = new EntityItem(w, (double) ((float) x + f), (double) ((float) y + f1), (double) ((float) z + f2), new ItemStack(NItems.FandStick, 1));
             w.setBlock(x, y, z, Blocks.air);
-            //breakBlock(w, x, y, z, null, 1);
             entityitem.motionX = (double) ((float) this.random.nextGaussian() * f3);
             entityitem.motionY = (double) ((float) this.random.nextGaussian() * f3 + 0.1F);
             entityitem.motionZ = (double) ((float) this.random.nextGaussian() * f3);

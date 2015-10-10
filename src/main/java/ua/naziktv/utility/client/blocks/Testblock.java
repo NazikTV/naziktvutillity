@@ -8,7 +8,6 @@ public class Testblock extends Block {
     protected Testblock(int id) {
         super(Material.iron);
         this.setBlockName("Testblock");
-        //this.setCreativeTab(NMain.tabNazikTV);
         this.setHardness(2F);
         this.setResistance(95555F);
         this.setHarvestLevel("pickaxe", 2);

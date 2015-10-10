@@ -44,7 +44,5 @@ public class CEDArmor extends ItemArmor {
     @Override
     public boolean hasEffect(ItemStack par1ItemStack) {
         return true;
-
-
     }
 }
