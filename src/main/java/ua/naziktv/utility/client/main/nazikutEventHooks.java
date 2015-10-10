@@ -32,6 +32,11 @@ public class nazikutEventHooks {
     }
 
     private boolean canBurn(World world, int x, int y, int z) {
+        //This code copy off RailCraft part
+        //https://github.com/CovertJaguar/Railcraft
+        //http://www.railcraft.info/
+        //http://railcraft.info/wiki/
+        //http://railcraft.info/wiki/info:license
         if (world.getBlock(x, y, z) != Blocks.air)
             return false;
         for (ForgeDirection side : ForgeDirection.VALID_DIRECTIONS) {
@@ -48,6 +53,11 @@ public class nazikutEventHooks {
     }
 
     public void SpawnFire(LivingEvent.LivingUpdateEvent event) {
+        //This code is copy off RailCraft part
+        //https://github.com/CovertJaguar/Railcraft
+        //http://www.railcraft.info/
+        //http://railcraft.info/wiki/
+        //http://railcraft.info/wiki/info:license
         if (NConfig.ESF) {
             EntityLivingBase player = event.entityLiving;
             Random rnd = player.getRNG();
@@ -122,7 +132,6 @@ public class nazikutEventHooks {
     {
         if (event.modID.equalsIgnoreCase(NMain.modid))
         {
-
             saveconfig1();
         }
     }

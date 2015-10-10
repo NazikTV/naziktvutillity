@@ -10,6 +10,11 @@ import net.minecraftforge.common.util.ForgeDirection;
  * Attribution-ShareAlike 4.0 International License.
  * For show sourse visit https://github.com/NazikTV/naziktvutillity
  * My site http://naziktv.zz.mu/
+ * This code is copy off RailCraft part:
+ * https://github.com/CovertJaguar/Railcraft
+ * http://www.railcraft.info/
+ * http://railcraft.info/wiki/
+ * http://railcraft.info/wiki/info:license
  */
 public class geXYZ {
     public geXYZ(){
