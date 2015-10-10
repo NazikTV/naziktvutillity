@@ -2,7 +2,7 @@
 Hi! My name is NazikTV i am Ukrainian therefore can make mistakes in the spelling of certain words
 My site http://naziktv.zz.mu/
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
-Цей твір ліцензовано на умовах ліцензіїї Creative Commons Із Зазначенням Авторства - Некомерційна - Поширення На Тих Самих Умовах 4.0 Міжнародна. Щоб ознайомитися з копією цієї ліцензії, завітайте на http://creativecommons.org/licenses/by-nc-sa/4.0/.
+Р¦РµР№ С‚РІС–СЂ Р»С–С†РµРЅР·РѕРІР°РЅРѕ РЅР° СѓРјРѕРІР°С… Р»С–С†РµРЅР·С–С—С— Creative Commons Р†Р· Р—Р°Р·РЅР°С‡РµРЅРЅСЏРј РђРІС‚РѕСЂСЃС‚РІР° - РќРµРєРѕРјРµСЂС†С–Р№РЅР° - РџРѕС€РёСЂРµРЅРЅСЏ РќР° РўРёС… РЎР°РјРёС… РЈРјРѕРІР°С… 4.0 РњС–Р¶РЅР°СЂРѕРґРЅР°. Р©РѕР± РѕР·РЅР°Р№РѕРјРёС‚РёСЃСЏ Р· РєРѕРїС–С”СЋ С†С–С”С— Р»С–С†РµРЅР·С–С—, Р·Р°РІС–С‚Р°Р№С‚Рµ РЅР° http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 
 In my mods is a copy of RailCraft mod Code
