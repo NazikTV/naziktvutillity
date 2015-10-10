@@ -17,7 +17,7 @@ import java.util.List;
  * Created by NazikTV on 10.10.2015.
  */
 public class ClockNB extends Block {
-    public String iconPath = ":ClockBlock";
+    public String iconPath = ":ClockBlock/";
     public ClockNB() {
         super(Material.rock);
         this.setCreativeTab(NMain.tabNazikTV);

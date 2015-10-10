@@ -35,8 +35,6 @@ public class NBlocks {
         GameRegistry.registerBlock((AdvancFur), "AdvancFur").setCreativeTab(NMain.tabNazikTV);
         GameRegistry.registerBlock((AdvancFurAct), "AdvancFurAct");
 
-
-
         ChestGenHooks.addItem(ChestGenHooks.DUNGEON_CHEST,
                 new WeightedRandomChestContent(new ItemStack(testblock), 5, 27, 3));
         ChestGenHooks.addItem(ChestGenHooks.STRONGHOLD_CORRIDOR,
