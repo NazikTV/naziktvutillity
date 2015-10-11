@@ -6,6 +6,6 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-Share
 Цей твір ліцензовано на умовах ліцензіїї Creative Commons Із Зазначенням Авторства - Некомерційна - Поширення На Тих Самих Умовах 4.0 Міжнародна. Щоб ознайомитися з копією цієї ліцензії, завітайте на http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 
-In my mods is a copy of RailCraft mod Code
+In my mods is a copy of RailCraft mod code
 http://railcraft.info/wiki/info:license
 http://railcraft.info/
