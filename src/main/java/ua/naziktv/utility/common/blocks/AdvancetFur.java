@@ -1,4 +1,4 @@
-package ua.naziktv.utility.API;
+package ua.naziktv.utility.common.blocks;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -18,8 +18,8 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.IIcon;
 import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
-import ua.naziktv.utility.client.blocks.NBlocks;
-import ua.naziktv.utility.client.main.NMain;
+import ua.naziktv.utility.common.main.NMain;
+import ua.naziktv.utility.common.entity.TileEntityAdvancFur;
 
 import java.util.Random;
 
@@ -30,7 +30,7 @@ import java.util.Random;
  * For show sourse visit https://github.com/NazikTV/naziktvutillity
  * My site http://naziktv.zz.mu/
  */
-    public  class FurAPI extends BlockContainer { //static
+    public  class AdvancetFur extends BlockContainer { //static
 
         @SideOnly(Side.CLIENT)
         private IIcon top;
@@ -41,7 +41,7 @@ import java.util.Random;
         private final boolean isBurning2;
         private final Random random = new Random();
 
-        public FurAPI(boolean isActive) {
+        public AdvancetFur(boolean isActive) {
             super(Material.rock);
             isBurning2 = isActive;
             this.setHardness(3F);
@@ -50,8 +50,8 @@ import java.util.Random;
     @SideOnly(Side.CLIENT)
     public void registerBlockIcons(IIconRegister iconregister) {
         this.blockIcon = iconregister.registerIcon(NMain.modid + ":FurnaceSide");
-        this.front = iconregister.registerIcon(this.isBurning2 ? NMain.modid + ":FurnaceActive" : ua.naziktv.utility.client.main.NMain.modid + ":Furnace");
-        this.top = iconregister.registerIcon(ua.naziktv.utility.client.main.NMain.modid + ":FurnaceTop");
+        this.front = iconregister.registerIcon(this.isBurning2 ? NMain.modid + ":FurnaceActive" : NMain.modid + ":Furnace");
+        this.top = iconregister.registerIcon(NMain.modid + ":FurnaceTop");
     }
 
     @SideOnly(Side.CLIENT)
