@@ -49,7 +49,10 @@ public  class ItemAPI extends Item {
             par3List.add(line1);
             par3List.add(line2);
             par3List.add(line3);
-        }
+        }else{
+			par3List.add(EnumChatFormatting.BLUE+""+EnumChatFormatting.ITALIC+StatCollector.translateToLocal("items.holdshift"));
+		}
+		super.addInformation(par1ItemStack, par2EntityPlayer, par3List, par4);
     }
     public String line1;
     public String line2;
