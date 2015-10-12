@@ -3,6 +3,8 @@ tile.Testblock.name=Тестовий блок
 tile.CottonCrops.name=Бавовняна рослина
 tile.AdvancFur.name=Смарагдова піч
 tile.AdvancFurAct.name=Смарагдова піч
+tile.ClockNum.name=Годинниковий циферблат
+tile.ClockBlock.name=Годинника обшивка
 
 //Items
 item.GoldEgg.name=Egg++
