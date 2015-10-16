@@ -1,6 +1,7 @@
 package ua.naziktv.utility.common.main;
 
 import DummyCore.Core.Core;
+import DummyCore.Utils.ModVersionChecker;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.ModMetadata;
@@ -19,13 +20,14 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Potion;
 import net.minecraft.world.biome.BiomeGenBase;
 import net.minecraftforge.common.MinecraftForge;
-import ua.naziktv.utility.common.event.nazikutEventHooks;
 import ua.naziktv.utility.common.api.BlockCropsApi;
 import ua.naziktv.utility.common.api.NLoger;
+import ua.naziktv.utility.common.api.NUtillits;
 import ua.naziktv.utility.common.blocks.NBlocks;
 import ua.naziktv.utility.common.entity.FASBEntity;
 import ua.naziktv.utility.common.entity.NazikTVEntity;
 import ua.naziktv.utility.common.event.DropHandler;
+import ua.naziktv.utility.common.event.nazikutEventHooks;
 import ua.naziktv.utility.common.gui.NGuiHandler;
 import ua.naziktv.utility.common.items.NItems;
 import ua.naziktv.utility.common.potion.Npotion;
@@ -61,6 +63,7 @@ public class NMain {
     @Mod.EventHandler
     public void preLoad(FMLPreInitializationEvent event) {
         new NLoger().DEBUG("Start loading mod");
+        new NUtillits();
 
         instance = this;
 
@@ -86,6 +89,7 @@ public class NMain {
             EntityRegistry.addSpawn(NazikTVEntity.class, 6, 1, 5, EnumCreatureType.creature, BiomeGenBase.jungle);
         }
         setupModInfo(event.getModMetadata());
+        ModVersionChecker.addRequest(this.getClass(), "https://www.dropbox.com/s/iwdfv0mc4qns00f/DummyCoreVersion.txt?dl=1");
     }
 
     @Mod.EventHandler
