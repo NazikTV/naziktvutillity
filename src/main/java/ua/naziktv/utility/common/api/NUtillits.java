@@ -45,8 +45,8 @@ public class NUtillits {
         if(calendar.get(2) + 1 == 12 && calendar.get(5) >= 24 && calendar.get(5) <= 26) {
            return true;
         }
-        //return false;
-        return true;
+        return false;
+        //return true;
     }
 
     public static void removeRecipe(ItemStack resultItem)

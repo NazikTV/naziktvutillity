@@ -43,7 +43,7 @@ import java.util.ArrayList;
  * My site http://naziktv.zz.mu/
  */
 
-@Mod(modid = NMain.modid, name = NMain.name, version = NMain.version, acceptedMinecraftVersions = "1.7.10", guiFactory = "ua.naziktv.utility.common.gui.factory", canBeDeactivated = false)
+@Mod(modid = NMain.modid, name = NMain.name, version = NMain.version, acceptedMinecraftVersions = "1.7.10", guiFactory = "ua.naziktv.utility.common.gui.factory", canBeDeactivated = false, dependencies = "required-after:DummyCore@[2.0,)")
 
 public class NMain {
     public static final String version = "0.1.5";

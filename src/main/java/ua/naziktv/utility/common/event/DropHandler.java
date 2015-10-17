@@ -1,8 +1,10 @@
 package ua.naziktv.utility.common.event;
 
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
+import ua.naziktv.utility.common.api.NUtillits;
 import ua.naziktv.utility.common.blocks.NBlocks;
 import ua.naziktv.utility.common.entity.NazikTVEntity;
 import ua.naziktv.utility.common.items.NItems;
@@ -35,6 +37,8 @@ public class DropHandler
                 event.entityLiving.entityDropItem(new ItemStack(NBlocks.testblock), dropped);
                 if(dropped <2){
                     event.entityLiving.entityDropItem(new ItemStack(NBlocks.testblock), 1);
+                    if (NUtillits.isCrismas()== false)
+                        event.entityLiving.entityDropItem(new ItemStack(Items.diamond).setStackDisplayName("Surprise! =)"), 2);
                 }
             }
             if (random.nextInt(10)==1){
