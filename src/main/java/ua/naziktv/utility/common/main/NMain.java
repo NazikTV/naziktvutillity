@@ -89,7 +89,7 @@ public class NMain {
             EntityRegistry.addSpawn(NazikTVEntity.class, 6, 1, 5, EnumCreatureType.creature, BiomeGenBase.jungle);
         }
         setupModInfo(event.getModMetadata());
-        ModVersionChecker.addRequest(this.getClass(), "https://www.dropbox.com/s/iwdfv0mc4qns00f/DummyCoreVersion.txt?dl=1");
+        ModVersionChecker.addRequest(this.getClass(), "https://www.dropbox.com/s/8eikpu3hkwrj95w/NUversion.txt?dl=1");
     }
 
     @Mod.EventHandler
@@ -110,9 +110,11 @@ public class NMain {
         meta.modId = modid;
         meta.name = name;
         meta.version = version;
+        meta.credits="The Forge & FML & MCP guys and Notch =)";
         meta.description = "Utility for NazikTV survival.";
         meta.authorList = authors;
-        meta.url="naziktv.zz.mu";
+        meta.url="https://naziktv.zz.mu";
+        meta.updateUrl="https://github.com/NazikTV/naziktvutillity/releases";
     }
 
     public static void registerEntity(java.lang.Class<NazikTVEntity> entityClass, String name, int primaryColor, int secondaryColor) {
