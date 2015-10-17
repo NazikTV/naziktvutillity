@@ -6,6 +6,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.EnumRarity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.util.StatCollector;
 import org.lwjgl.input.Keyboard;
 import ua.naziktv.utility.common.main.NMain;
@@ -50,7 +51,7 @@ public  class ItemAPI extends Item {
             par3List.add(line2);
             par3List.add(line3);
         }else{
-			par3List.add(EnumChatFormatting.BLUE+""+EnumChatFormatting.ITALIC+StatCollector.translateToLocal("items.holdshift"));
+			par3List.add(EnumChatFormatting.BLUE+""+ EnumChatFormatting.ITALIC+StatCollector.translateToLocal("items.holdshift"));
 		}
 		super.addInformation(par1ItemStack, par2EntityPlayer, par3List, par4);
     }

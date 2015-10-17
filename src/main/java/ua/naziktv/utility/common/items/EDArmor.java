@@ -1,6 +1,5 @@
 package ua.naziktv.utility.common.items;
 
-import com.sun.istack.internal.NotNull;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemArmor;
@@ -60,7 +59,7 @@ public class EDArmor extends ItemArmor {
 
     }
 
-    @NotNull
+//    @NotNull
     @Override
     public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack) {
         if (player.getCurrentArmor(0) != null && player.getCurrentArmor(1) != null && player.getCurrentArmor(2) != null && player.getCurrentArmor(3) != null) {
