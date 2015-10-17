@@ -1,6 +1,7 @@
 package ua.naziktv.utility.common.event;
 
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
@@ -31,13 +32,16 @@ public class DropHandler
         dropped = (int)random.nextInt(25)/10 + 3; //DO NOT CHANGE THIS
         shans = random.nextInt(3);
 
-        if(event.entityLiving instanceof NazikTVEntity)
-        {
+        if(event.entityLiving instanceof NazikTVEntity){
+
+            //event.entityLiving.entityDropItem(new ItemStack(Items.diamond).setStackDisplayName("Surprise! =)"), 2);
+            if (NUtillits.isCrismas())
+                event.entityLiving.entityDropItem(new ItemStack(Blocks.wool, 1, 3).setStackDisplayName("Surprise! =)"), 2);
             if (shans == 0){
                 event.entityLiving.entityDropItem(new ItemStack(NBlocks.testblock), dropped);
                 if(dropped <2){
                     event.entityLiving.entityDropItem(new ItemStack(NBlocks.testblock), 1);
-                    if (NUtillits.isCrismas()== false)
+                    if (NUtillits.isCrismas())
                         event.entityLiving.entityDropItem(new ItemStack(Items.diamond).setStackDisplayName("Surprise! =)"), 2);
                 }
             }
