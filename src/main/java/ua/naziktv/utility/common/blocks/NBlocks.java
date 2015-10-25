@@ -23,18 +23,30 @@ public class NBlocks {
     public static Block AdvancFur = new AdvancetFur(false).setBlockName("AdvancFur"),
             AdvancFurAct = new AdvancetFur(true).setBlockName("AdvancFurAct"),
             FASBlock = new FASBlock().setCreativeTab(NMain.tabNazikTV).setBlockTextureName(NMain.modid + ":FASB1"),
+            JeckLogOak = new JeckLogOak().setCreativeTab(NMain.tabNazikTV).setBlockName("JeckLogOak").setBlockTextureName("nazikutility:JeckLog/oak"),
+            JeckLogBirch = new JeckLogBirch().setCreativeTab(NMain.tabNazikTV).setBlockName("JeckLogBirch").setBlockTextureName("nazikutility:JeckLog/birch"),
+            JeckLogSpruce = new JeckLogSpruce().setCreativeTab(NMain.tabNazikTV).setBlockName("JeckLogSpruce").setBlockTextureName("nazikutility:JeckLog/spruce"),
+            JeckLogAcacia = new JeckLogAcacia().setCreativeTab(NMain.tabNazikTV).setBlockName("JeckLogAcacia").setBlockTextureName("nazikutility:JeckLog/acacia"),
+            JeckLogBigOak = new JeckLogBigOak().setCreativeTab(NMain.tabNazikTV).setBlockName("JeckLogBigOak").setBlockTextureName("nazikutility:JeckLog/bigoak"),
+            JeckLogJungle = new JeckLogJungle().setCreativeTab(NMain.tabNazikTV).setBlockName("JeckLogJungle").setBlockTextureName("nazikutility:JeckLog/jungle"),
             ClockN = new ClockNB().setCreativeTab(NMain.tabNazikTV).setBlockName("ClockNum"),
             PaintQuarz = new PaintQuarz().setCreativeTab(NMain.tabNazikTV).setBlockName("PaintQuarz");
 
     public static void registerBlocks() {
         GameRegistry.registerBlock(PaintQuarz, ItemBlockGeneric.class, "PaintQuarz");
         GameRegistry.registerBlock(ClockN, ItemBlockGeneric.class, "ClockNum");
-        GameRegistry.registerBlock((Cotton), "Cotton");
+        GameRegistry.registerBlock(Cotton, "Cotton");
         GameRegistry.registerBlock(testblock, "Testblock").setCreativeTab(NMain.tabNazikTV);
         GameRegistry.registerBlock(FASBlock, "FASBlock");
         GameRegistry.registerBlock(ClockBlock, "ClockBlock");
-        GameRegistry.registerBlock((AdvancFur), "AdvancFur").setCreativeTab(NMain.tabNazikTV);
-        GameRegistry.registerBlock((AdvancFurAct), "AdvancFurAct");
+        GameRegistry.registerBlock(AdvancFur, "AdvancFur").setCreativeTab(NMain.tabNazikTV);
+        GameRegistry.registerBlock(AdvancFurAct, "AdvancFurAct");
+        GameRegistry.registerBlock(JeckLogOak, "JeckLogOac");
+        GameRegistry.registerBlock(JeckLogSpruce, "JeckLogSpruce");
+        GameRegistry.registerBlock(JeckLogBigOak, "JeckLogBigOac");
+        GameRegistry.registerBlock(JeckLogAcacia, "JeckLogAcacia");
+        GameRegistry.registerBlock(JeckLogBirch, "JeckLogBirch");
+        GameRegistry.registerBlock(JeckLogJungle, "JeckLogJungle");
 
         ChestGenHooks.addItem(ChestGenHooks.DUNGEON_CHEST,
                 new WeightedRandomChestContent(new ItemStack(testblock), 5, 27, 3));
