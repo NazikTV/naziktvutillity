@@ -3,10 +3,8 @@ package ua.naziktv.utility.network;
 import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import net.minecraft.client.model.ModelBiped;
-import ua.naziktv.utility.common.entity.FASBEntity;
-import ua.naziktv.utility.common.entity.NazikTVEntity;
-import ua.naziktv.utility.common.entity.render.FASBEntityRender;
-import ua.naziktv.utility.common.entity.render.RenderNazikTVEntity;
+import ua.naziktv.utility.common.entity.*;
+import ua.naziktv.utility.common.entity.render.*;
 
 /**
  * Created by NazikTV on 11.10.2015.
@@ -24,6 +22,12 @@ public class ClientProxy extends CommonProxy {
 
     public void registerRenderThings() {
         ClientRegistry.bindTileEntitySpecialRenderer(FASBEntity.class, new FASBEntityRender());
+        ClientRegistry.bindTileEntitySpecialRenderer(JeckLogOakEntity.class, new JeckLogEntityRenderOak());
+        ClientRegistry.bindTileEntitySpecialRenderer(JeckLogSpruceEntity.class, new JeckLogEntityRenderSpruce());
+        ClientRegistry.bindTileEntitySpecialRenderer(JeckLogBircheEntity.class, new JeckLogEntityRenderBirch());
+        ClientRegistry.bindTileEntitySpecialRenderer(JeckLogJungleEntity.class, new JeckLogEntityRenderJungle());
+        ClientRegistry.bindTileEntitySpecialRenderer(JeckLogAcaciaEntity.class, new JeckLogEntityRenderAcacia());
+        ClientRegistry.bindTileEntitySpecialRenderer(JeckLogBigOakEntity.class, new JeckLogEntityRenderBigOak());
     }
 
 

@@ -3,6 +3,9 @@ package ua.naziktv.utility.common.api;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.CraftingManager;
 import net.minecraft.item.crafting.IRecipe;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.world.IBlockAccess;
+import net.minecraftforge.common.util.ForgeDirection;
 
 import java.util.Calendar;
 import java.util.List;
@@ -25,6 +28,25 @@ public class NUtillits {
         //System.out.println(dateFormatDay.format(date)); //2014/08/06 15:59:48
         //System.out.println(dateFormatMonth.format(date));
         //System.out.println(date.getMonth());
+    }
+
+    public static <T> T getTileEntity(Class<T> type, IBlockAccess world, int x, int y, int z)
+    {
+        if (world == null)
+            return null;
+
+        TileEntity te = world.getTileEntity(x, y, z);
+        if (te == null)
+            return null;
+
+        try
+        {
+            return type.cast(te);
+        }
+        catch (ClassCastException e)
+        {
+            return null;
+        }
     }
 
     public static Calendar calendar = Calendar.getInstance();
@@ -59,5 +81,32 @@ public class NUtillits {
             if (ItemStack.areItemStacksEqual(resultItem, recipeResult))
                 recipes.remove(i--);
         }
+    }
+
+    public static final int DIR_WEST = 3;
+    public static final int DIR_NORTH = 0;
+    public static final int DIR_EAST = 1;
+    public static final int DIR_SOUTH = 2;
+
+    public static int dirToMeta(ForgeDirection dir)
+    {
+        if (dir == ForgeDirection.NORTH)
+            return DIR_NORTH;
+        else if (dir == ForgeDirection.EAST)
+            return DIR_EAST;
+        else if (dir == ForgeDirection.SOUTH)
+            return DIR_SOUTH;
+        return DIR_WEST;
+    }
+
+    public static ForgeDirection metaToDir(int metadata)
+    {
+        if (metadata == DIR_NORTH)
+            return ForgeDirection.NORTH;
+        else if (metadata == DIR_EAST)
+            return ForgeDirection.EAST;
+        else if (metadata == DIR_SOUTH)
+            return ForgeDirection.SOUTH;
+        return ForgeDirection.WEST;
     }
 }

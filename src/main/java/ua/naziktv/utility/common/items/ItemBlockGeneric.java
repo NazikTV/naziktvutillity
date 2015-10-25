@@ -4,6 +4,7 @@ import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
+import ua.naziktv.utility.common.api.NLoger;
 
 import java.lang.reflect.Method;
 import java.util.List;
@@ -56,7 +57,7 @@ public class ItemBlockGeneric extends ItemBlock {
                     this.field_150939_a.getClass().getMethod("addInformation", ItemStack.class,EntityPlayer.class,List.class,boolean.class).invoke(field_150939_a, par1ItemStack,par2EntityPlayer,par3List,par4);
                 }catch(Exception e)
                 {
-
+                    NLoger.WARN("Eror");
                 }
             }
         }

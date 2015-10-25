@@ -47,6 +47,7 @@ public class NConfig implements IDummyConfig {
         //config.setCategoryComment("Enablecraft", "Enable craft from items");
         config.save();
         config1 = config;
+        EDEBUG=true;
     }
 
     public static void save(Configuration config){
